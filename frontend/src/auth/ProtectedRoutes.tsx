@@ -4,7 +4,7 @@ import { useKindeAuth } from '@kinde-oss/kinde-auth-react'
 import { Loading } from 'src/components/Loading'
 import { routes } from 'src/router/routes'
 
-export const ProtectedRoute = () => {
+export const ProtectedRoutes = () => {
     const { isLoading, isAuthenticated } = useKindeAuth()
     const location = useLocation()
 
